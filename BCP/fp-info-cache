@@ -1,4 +1,4 @@
-26783154869420452
+26784916916571020
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105615,6 +105615,13 @@ igbt diode module
 0
 25
 25
+Trantor
+BME280
+
+
+0
+9
+9
 Trantor
 GPS
 
