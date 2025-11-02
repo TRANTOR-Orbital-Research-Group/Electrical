@@ -1,4 +1,4 @@
-26784916916571020
+26784916990145516
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105623,6 +105623,13 @@ BME280
 9
 9
 Trantor
+BNO055
+
+
+0
+14
+11
+Trantor
 GPS
 
 
@@ -105657,13 +105664,6 @@ TO255P1020X450X1968-3
 0
 3
 3
-Trantor
-Untitled
-
-
-0
-0
-0
 Trantor
 Untitled_1
 
