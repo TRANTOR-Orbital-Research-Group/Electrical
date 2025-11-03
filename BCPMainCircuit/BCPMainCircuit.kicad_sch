@@ -3737,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0ecb91-5472-4f06-8580-0d2158546c0c")
+	)
+	(wire
+		(pts
 			(xy 256.54 40.64) (xy 252.73 40.64)
 		)
 		(stroke
@@ -3974,6 +3984,16 @@
 			(justify right bottom)
 		)
 		(uuid "172d825f-23e6-40d2-9c19-f487a44b5a40")
+	)
+	(label "3.3 V"
+		(at 193.04 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a6bb36f-e684-48d0-b7c3-2b07e62d326f")
 	)
 	(label "DEBUG2"
 		(at 190.5 115.57 0)
