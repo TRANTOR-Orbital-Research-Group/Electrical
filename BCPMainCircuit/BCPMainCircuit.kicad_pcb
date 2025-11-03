@@ -6086,9 +6086,21 @@
 		(layer "Edge.Cuts")
 		(uuid "fce6ada8-339e-4915-b815-cb3bf2c9a60b")
 	)
+	(gr_text "Stinky Variable\n:0"
+		(at 154 114 0)
+		(layer "F.SilkS")
+		(uuid "47976eee-df54-4556-b7ec-a1f8c1774f55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "TRANTOR Balloon CubeSat Platform"
-		(at 112.705 104.37 -90)
-		(layer "B.SilkS")
+		(at 119.5 40 0)
+		(layer "F.SilkS")
 		(uuid "95a3bce0-af14-4ed6-9934-b8eab0e7e4a6")
 		(effects
 			(font
@@ -6096,7 +6108,7 @@
 				(thickness 0.4)
 				(bold yes)
 			)
-			(justify bottom mirror)
+			(justify bottom)
 		)
 	)
 	(via
