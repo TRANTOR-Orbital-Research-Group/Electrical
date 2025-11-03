@@ -3336,7 +3336,7 @@
 		(uuid 8d2f9ae4-2582-4e84-8ffc-146504621957)
 	)
 	(rectangle
-		(start 100.33 21.59)
+		(start 109.22 21.59)
 		(end 191.77 45.72)
 		(stroke
 			(width 0)
@@ -3717,7 +3717,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 34.29) (xy 104.14 36.83)
+			(xy 115.57 34.29) (xy 115.57 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 34.29) (xy 109.22 34.29)
+			(xy 115.57 34.29) (xy 123.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3924,16 +3924,6 @@
 			(type default)
 		)
 		(uuid "f3696c48-f925-4644-bcad-f37ccc88f11f")
-	)
-	(wire
-		(pts
-			(xy 119.38 34.29) (xy 123.19 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5af9203-e546-4cee-90a4-0f442c7082a4")
 	)
 	(wire
 		(pts
@@ -5564,74 +5554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 114.3 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0ebfd26-c827-4956-89ee-c183fb9787a1")
-		(property "Reference" "BT1"
-			(at 114.8715 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery"
-			(at 114.8715 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.824 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.824 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 114.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b330a80a-3d09-414b-9126-fd60c256e145")
-		)
-		(pin "1"
-			(uuid "846ecf63-9eb0-4377-817e-59f4f6e20fab")
-		)
-		(instances
-			(project ""
-				(path "/265d59aa-caac-4c2d-9db5-2e2b992cffbc"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 198.12 86.36 0)
 		(unit 1)
@@ -5699,7 +5621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 36.83 0)
+		(at 115.57 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5708,7 +5630,7 @@
 		(fields_autoplaced yes)
 		(uuid "df91dfba-1a41-4152-8996-ed46ba53a94a")
 		(property "Reference" "#PWR01"
-			(at 104.14 43.18 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 41.91 0)
+			(at 115.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 36.83 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 36.83 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 36.83 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
