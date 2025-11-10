@@ -1,4 +1,4 @@
-26743608132504640
+26748896325822189
 Adafruit BNO055 STEMMA QT
 1X04_ROUND_76
 
@@ -62678,6 +62678,20 @@ GDT 3R-6
 3
 3
 Gabriel_footprints
+74HC4051 8_1
+
+
+0
+19
+19
+Gabriel_footprints
+AD8495 Breakout
+
+
+0
+6
+6
+Gabriel_footprints
 BME280
 
 
@@ -62698,6 +62712,13 @@ BNO055 Mine
 0
 6
 6
+Gabriel_footprints
+CD74HC4067 Breakout
+
+
+0
+24
+24
 Gabriel_footprints
 COM-16347_SPK
 
