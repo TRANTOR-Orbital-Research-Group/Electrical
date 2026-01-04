@@ -4070,25 +4070,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT2"
+				(at -7.62 0.5715 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
+			(property "Value" "Batteries"
+				(at -3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Gabriel_footprints:BAT_1079"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -4108,6 +4107,87 @@
 			)
 			(property "Description" "Multiple-cell battery"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4253,7 +4333,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "P2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4271,7 +4351,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "N1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8916,7 +8996,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 146.05 111.76)
+			(xy 149.86 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9116,6 +9196,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 113.03) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18937608-8a14-42d8-a443-04858a93a5d7")
+	)
+	(wire
+		(pts
 			(xy 321.31 91.44) (xy 318.77 91.44)
 		)
 		(stroke
@@ -9183,6 +9273,16 @@
 			(type default)
 		)
 		(uuid "200a1ca8-ef05-4846-9a6c-a9ce37c35bd3")
+	)
+	(wire
+		(pts
+			(xy 148.59 109.22) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20583b33-f37f-4f98-b47c-b6e013c189d5")
 	)
 	(wire
 		(pts
@@ -10083,6 +10183,16 @@
 			(type default)
 		)
 		(uuid "77cc2ff0-432c-493d-aab2-5d51c7b1cbf3")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f59bad-bd54-4767-adf6-7aa601dfcdca")
 	)
 	(wire
 		(pts
@@ -15097,7 +15207,7 @@
 		(uuid "ae4b320a-4c08-4ac1-ac95-941d3a762496")
 	)
 	(label "IMU_Wake"
-		(at 149.86 111.76 0)
+		(at 149.86 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15392,7 +15502,7 @@
 			)
 		)
 	)
-	(global_label "SD_CS"
+	(global_label "IMU_CS"
 		(shape input)
 		(at 295.91 207.01 180)
 		(fields_autoplaced yes)
@@ -15404,7 +15514,7 @@
 		)
 		(uuid "22a85e44-9ae4-483b-a332-f0606bac7060")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.9982 207.01 0)
+			(at 286.091 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,6 +15559,28 @@
 		(uuid "3c3c490e-f4e1-41f3-a727-8a96bbffd415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.3814 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_CS"
+		(shape input)
+		(at 148.59 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "439ff77a-bf6a-4424-bcff-62a0f48ac0ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.409 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27933,10 +28065,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "P2"
 			(uuid "126fb4b0-2e67-4457-9a7e-10d6c1ae9441")
 		)
-		(pin "1"
+		(pin "N1"
 			(uuid "494a71e8-0386-4b41-a48b-c3896a34dbb3")
 		)
 		(instances
