@@ -8501,7 +8501,7 @@
 	)
 	(text "Power\n"
 		(exclude_from_sim no)
-		(at 276.86 106.934 0)
+		(at 326.39 106.68 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8532,6 +8532,18 @@
 			)
 		)
 		(uuid "6a271247-047b-4514-98ae-b918eea82416")
+	)
+	(text "SD Card Slot"
+		(exclude_from_sim no)
+		(at 214.884 105.156 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "723f09ce-947a-4911-91da-87dcec374ebe")
 	)
 	(text "https://www.sdcard.org/downloads/pls/pdf/?p=Part1_Physical_Layer_Simplified_Specification_Ver9.10.jpg&f=Part1PhysicalLayerSimplifiedSpecificationVer9.10Fin_20231201.pdf&e=EN_SS9_1"
 		(exclude_from_sim no)
@@ -8581,7 +8593,7 @@
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
-		(at 95.25 15.24 0)
+		(at 113.792 14.986 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8603,9 +8615,9 @@
 		)
 		(uuid "cb4d9eab-c100-4b3a-b65d-74e355bfb1a1")
 	)
-	(text "SD Card Slot"
+	(text "Inertial Measurement Unit"
 		(exclude_from_sim no)
-		(at 39.37 162.56 0)
+		(at 44.704 161.544 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -9541,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 110.49 106.68)
+			(xy 93.98 106.68) (xy 110.49 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9801,7 +9813,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 96.52 93.98)
+			(xy 107.95 95.25) (xy 107.95 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10631,6 +10643,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0f14d0-42d4-4d1e-94cb-f232c9c064d8")
+	)
+	(wire
+		(pts
 			(xy 135.89 27.94) (xy 132.08 27.94)
 		)
 		(stroke
@@ -11321,7 +11343,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 110.49 93.98)
+			(xy 107.95 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -14382,22 +14404,22 @@
 	)
 	(global_label "TimePulseGPS"
 		(shape input)
-		(at 110.49 96.52 180)
+		(at 148.59 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "18e796bd-33b8-4b11-86df-8d0b9e7c5a1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2001 96.52 0)
+			(at 164.8799 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19540,7 +19562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 106.68 0)
+		(at 93.98 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19549,7 +19571,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fd72b1e-5004-42c7-ab31-c725f63f90ca")
 		(property "Reference" "#PWR027"
-			(at 96.52 113.03 0)
+			(at 93.98 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19558,7 +19580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 111.76 0)
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,7 +19588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 106.68 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19575,7 +19597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 106.68 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19584,7 +19606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 106.68 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20337,7 +20359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 95.25 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20346,7 +20368,7 @@
 		(fields_autoplaced yes)
 		(uuid "4336fb4f-b811-44f9-969b-a7f2007d6545")
 		(property "Reference" "#PWR03"
-			(at 96.52 101.6 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20355,7 +20377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 100.33 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,7 +20385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 95.25 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20372,7 +20394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 95.25 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20381,7 +20403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 95.25 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
