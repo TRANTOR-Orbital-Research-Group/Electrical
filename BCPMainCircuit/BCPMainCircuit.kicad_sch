@@ -23973,7 +23973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gabriel_footprints:NEO-M9N"
+		(property "Footprint" "Gabriel_footprints:SMT_9N-00B_UBL"
 			(at 52.07 48.26 0)
 			(effects
 				(font

@@ -669,6 +669,10 @@
       {
         "netclass": "Default",
         "pattern": "BATT_TERMS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TC-8"
       }
     ]
   },
