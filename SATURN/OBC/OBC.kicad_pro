@@ -659,6 +659,14 @@
     [
       "dc03155b-7cbf-4ee4-9f4c-dba3ed8dc3dd",
       "STM_Hardware"
+    ],
+    [
+      "e4d2ab53-3ce3-4165-a625-695d4175e2ed",
+      "MCU Power"
+    ],
+    [
+      "22739825-328f-4750-87fc-f1f294c30175",
+      "STM32H7 MCU"
     ]
   ],
   "text_variables": {}

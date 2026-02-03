@@ -440,7 +440,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -451,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STM_Hardware.kicad_pro",
+    "filename": "SATRUN BOARDSTACK HEADER.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,16 +610,8 @@
   },
   "sheets": [
     [
-      "3dc4ada8-4f3f-4815-a67d-6c3de6c033d8",
+      "49f09bd6-885d-4d98-a536-943661e79ed0",
       "Root"
-    ],
-    [
-      "e4d2ab53-3ce3-4165-a625-695d4175e2ed",
-      "MCU Power"
-    ],
-    [
-      "22739825-328f-4750-87fc-f1f294c30175",
-      "STM32H7 MCU"
     ]
   ],
   "text_variables": {}
