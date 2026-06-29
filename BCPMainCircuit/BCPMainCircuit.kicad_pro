@@ -274,7 +274,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.8"
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -949,7 +949,7 @@
       {
         "filename": "BCPMainCircuit.kicad_sch",
         "name": "BCPMainCircuit",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "265d59aa-caac-4c2d-9db5-2e2b992cffbc"
       }
     ],
     "used_designators": "",
@@ -958,7 +958,7 @@
   "sheets": [
     [
       "265d59aa-caac-4c2d-9db5-2e2b992cffbc",
-      "Root"
+      "BCPMainCircuit"
     ]
   ],
   "text_variables": {},
