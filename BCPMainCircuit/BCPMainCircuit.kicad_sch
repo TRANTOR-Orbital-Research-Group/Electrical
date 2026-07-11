@@ -17772,7 +17772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -20881,7 +20881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 115.57 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21409,7 +21409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -23043,7 +23043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -24668,7 +24668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -24925,7 +24925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -30093,7 +30093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -30961,7 +30961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "BCP_Footprints:IND_VLS6045EX-4R7M_TDK"
 			(at 345.44 143.51 0)
 			(hide yes)
 			(show_name no)
