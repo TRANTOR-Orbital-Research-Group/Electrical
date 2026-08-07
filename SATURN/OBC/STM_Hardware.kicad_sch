@@ -2452,7 +2452,7 @@
 	)
 	(text "The RTC has a backup voltage allowed but we don't need it,\nso I tied it to gnd with 10kOhm as per datasheet\n"
 		(exclude_from_sim no)
-		(at 123.952 117.348 0)
+		(at 115.062 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2460,15 +2460,25 @@
 		)
 		(uuid "9520a817-7c5b-4534-bb67-4497f5c9537f")
 	)
-	(text "RTC is not done yet, but it's late and I'm tired.\nI'll get back to deciphering it later:\nDatasheet: https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf"
+	(text "The RTC is programmable over I2C, so I just connected it to the I2C bus (which doesn't exist yet?)\nI'm not sure whether or not we will be just an OBC I2C net or the bus one, though"
 		(exclude_from_sim no)
-		(at 117.348 129.54 0)
+		(at 117.348 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "99047fdf-85a5-4e58-8ba0-df8a1736a52a")
+	)
+	(text "I just jumped EVI to ground, it says specifically not to keep it floating.\nIt is external event input, but we aren't using it"
+		(exclude_from_sim no)
+		(at 114.808 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a89ebf19-b0d0-408e-9a40-6bc649c30a16")
 	)
 	(text "?"
 		(exclude_from_sim no)
@@ -2535,6 +2545,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2190a90-cd95-4417-89eb-478e6053c920")
+	)
+	(junction
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb170511-c8ab-4855-ab42-d4d9c8c97749")
 	)
 	(no_connect
 		(at 170.18 22.86)
@@ -2676,6 +2692,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d02334-0ba5-4dc4-8752-926c9fa35b38")
+	)
+	(wire
+		(pts
 			(xy 102.87 21.59) (xy 101.6 21.59)
 		)
 		(stroke
@@ -2706,13 +2732,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 154.94 101.6)
+			(xy 154.94 93.98) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5ef2735-a0be-4d99-852f-c2aef0fd9b61")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df20cd02-85b7-451a-9e10-43bf8aca01c3")
 	)
 	(wire
 		(pts
@@ -2964,6 +3000,30 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 86.36 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d09dcd7d-5210-40ab-bacd-4dbfe7cf54d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.8067 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USB_FS_D+"
 		(shape input)
 		(at 209.55 30.48 180)
@@ -3049,6 +3109,30 @@
 		(uuid "d9c73b6c-42ed-49bb-8a13-6840298685d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.6467 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 86.36 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df96c72a-b42e-487f-9328-71cb527db394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.8672 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4084,10 +4168,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a71d80d1-e3a1-4b61-84fc-cff756e403fb")
 		(property "Reference" "R1"
-			(at 149.86 92.71 90)
+			(at 149.86 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4097,7 +4180,7 @@
 			)
 		)
 		(property "Value" "10 kOhm"
-			(at 149.86 95.25 90)
+			(at 149.86 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
