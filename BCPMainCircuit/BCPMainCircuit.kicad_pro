@@ -952,7 +952,7 @@
         "uuid": "265d59aa-caac-4c2d-9db5-2e2b992cffbc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C2,C4,C12-13,#PWR18,#PWR28-30,#PWR37,#PWR46,R16,Y1",
     "variants": []
   },
   "sheets": [
