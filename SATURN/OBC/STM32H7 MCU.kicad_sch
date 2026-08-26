@@ -5206,7 +5206,7 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
+	(global_label "SWDCLK"
 		(shape input)
 		(at 154.94 149.86 180)
 		(fields_autoplaced yes)
@@ -5218,7 +5218,7 @@
 		)
 		(uuid "d268b6ad-1ee5-4592-a729-8414985d3b7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7258 149.86 0)
+			(at 144.4558 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
