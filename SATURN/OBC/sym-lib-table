@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "OBC-Components") (type "KiCad") (uri "C:/Users/SamWh/Dev/SHC/TRANTOR/Electrical/Libraries/OBC/OBC-Components.kicad_sym") (options "") (descr ""))
+	(lib (name "OBC-Components-win") (type "KiCad") (uri "C:/Users/SamWh/Dev/SHC/TRANTOR/Electrical/Libraries/OBC/OBC-Components.kicad_sym") (options "") (descr "") (disabled) (hidden))
+	(lib (name "OBC-Components-lin") (type "KiCad") (uri "/home/sa9m/Dev/SHC/TRANTOR/Electrical/Libraries/OBC/OBC-Components.kicad_sym") (options "") (descr ""))
 )

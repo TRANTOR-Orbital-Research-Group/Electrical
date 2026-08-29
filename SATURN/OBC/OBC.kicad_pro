@@ -497,7 +497,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "OBC-Components"
+      "OBC-Components",
+      "OBC-Components-lin"
     ]
   },
   "meta": {
@@ -682,7 +683,7 @@
         "uuid": "100d4475-6c5b-4ca4-82f4-ff20798e9edf"
       }
     ],
-    "used_designators": "CR1-2,#PWR14-16,#PWR20,U2",
+    "used_designators": "B1,CR1-2,#PWR14-16,#PWR20,U2",
     "variants": []
   },
   "sheets": [
