@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS9F18G08SA-45BAN
+D NAND Flash 8Gb, x8, 1.8V, SLC Parallel NAND Flash, 4bit ECC,45ns, 63b FBGA, Automotive Grade
+K
+F https://www.alliancememory.com/wp-content/uploads/pdf/flash/Datasheet/AllianceMemory_AS9Fxx_Series_1Gb_2Gb_4Gb_8Gb_x8bits_SLC_Parallel_NAND_Fl....pdf
+$ENDCMP
+#
+#End Doc Library

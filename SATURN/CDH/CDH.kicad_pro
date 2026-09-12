@@ -522,7 +522,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OBC.kicad_pro",
+    "filename": "CDH.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -698,22 +698,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "OBC.kicad_sch",
-        "name": "OBC",
+        "filename": "CDH.kicad_sch",
+        "name": "CDH",
         "uuid": "100d4475-6c5b-4ca4-82f4-ff20798e9edf"
       }
     ],
-    "used_designators": "U2,CR1-2,D1,D6,L1-2,#PWR4-5,#PWR8-16,#PWR21,IC3,R1,C1,C17-18,C23-25,C54-55",
+    "used_designators": "U2,CR1-2,D1,D6-8,L1-2,#PWR1-6,#PWR8-19,#PWR21,#PWR47-48,#PWR53-56,IC3-6,R1,R4,C1-2,C17-18,C23-25,C54-77",
     "variants": []
   },
   "sheets": [
     [
       "100d4475-6c5b-4ca4-82f4-ff20798e9edf",
-      "OBC"
+      "CDH"
     ],
     [
       "dc03155b-7cbf-4ee4-9f4c-dba3ed8dc3dd",
       "STM_Hardware"
+    ],
+    [
+      "1d7b96de-63ad-40ba-9245-979714535cbd",
+      "Memory"
     ],
     [
       "76d32143-82c7-4d53-9874-bcebf041ba8b",

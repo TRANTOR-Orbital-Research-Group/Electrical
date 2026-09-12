@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 35.56 72.39)
+		(size 50.165 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d7b96de-63ad-40ba-9245-979714535cbd")
+		(property "Sheetname" "Memory"
+			(at 35.56 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 35.56 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CDH"
+				(path "/100d4475-6c5b-4ca4-82f4-ff20798e9edf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 135.255 165.1)
 		(size 36.195 27.305)
 		(exclude_from_sim no)
@@ -44,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "OBC"
+			(project "CDH"
 				(path "/100d4475-6c5b-4ca4-82f4-ff20798e9edf"
 					(page "2")
 				)
