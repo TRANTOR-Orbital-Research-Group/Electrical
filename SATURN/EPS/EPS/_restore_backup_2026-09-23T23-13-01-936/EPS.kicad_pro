@@ -428,18 +428,13 @@
       {
         "filename": "EPS.kicad_sch",
         "name": "EPS",
-        "uuid": "baf447b2-ceb8-4342-89a8-d991ca2b7c75"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "C2-3,C10-11,#PWR2-3,#PWR14-15,R5-11,TH2",
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "baf447b2-ceb8-4342-89a8-d991ca2b7c75",
-      "EPS"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
