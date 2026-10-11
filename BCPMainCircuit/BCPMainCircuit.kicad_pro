@@ -214,8 +214,8 @@
         0.1,
         0.15,
         0.25,
+        0.4,
         0.5,
-        0.65,
         1.7
       ],
       "tuning_pattern_settings": {
@@ -695,13 +695,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -952,7 +953,7 @@
         "uuid": "265d59aa-caac-4c2d-9db5-2e2b992cffbc"
       }
     ],
-    "used_designators": "C2,C4,C12-13,#PWR18,#PWR28-30,#PWR37,#PWR46,R16,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
