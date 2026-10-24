@@ -4208,14 +4208,6 @@
 		(color 0 0 0 0)
 		(uuid "f6d1b072-757f-4ecc-bd3c-9044cd8e7d51")
 	)
-	(no_connect
-		(at 281.94 276.86)
-		(uuid "c9a20b01-6922-400f-9c9d-b40d154e0cd4")
-	)
-	(no_connect
-		(at 88.9 280.67)
-		(uuid "d077b02b-2805-4351-a5a0-c1c40cedbd16")
-	)
 	(wire
 		(pts
 			(xy 86.36 181.61) (xy 88.9 181.61)
@@ -4225,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "038e406f-6b5c-4207-a3f5-f85e671b8639")
+	)
+	(wire
+		(pts
+			(xy 86.36 135.89) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04177fcf-8806-4fa9-96a9-6fbbb0eb4150")
 	)
 	(wire
 		(pts
@@ -4435,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "36b2bb6d-8929-4ed6-a018-faa4c42b83ab")
+	)
+	(wire
+		(pts
+			(xy 273.05 276.86) (xy 281.94 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dbded9-548e-4c77-8895-a8e38083743b")
 	)
 	(wire
 		(pts
@@ -5232,7 +5244,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VFBSMPS"
+	(global_label "MCUB_VFBSMPS"
 		(shape input)
 		(at 335.28 292.1 0)
 		(fields_autoplaced yes)
@@ -5244,7 +5256,7 @@
 		)
 		(uuid "108753d8-e2c5-4a8b-9156-3215ae0fded2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.8723 292.1 0)
+			(at 353.1423 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5304,7 +5316,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VFBSMPS"
+	(global_label "MCUA_VFBSMPS"
 		(shape input)
 		(at 142.24 295.91 0)
 		(fields_autoplaced yes)
@@ -5316,7 +5328,7 @@
 		)
 		(uuid "15766395-9d71-411c-b38f-bf855193d256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.8323 295.91 0)
+			(at 159.9209 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,7 +5340,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VLXSMPS"
+	(global_label "MCUB_VLXSMPS"
 		(shape input)
 		(at 281.94 254 180)
 		(fields_autoplaced yes)
@@ -5340,7 +5352,7 @@
 		)
 		(uuid "166cb2de-c341-4469-b099-501cd72364b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.4687 254 0)
+			(at 264.1987 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +5820,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VFBSMPS"
+	(global_label "MCUA_VFBSMPS"
 		(shape input)
 		(at 86.36 293.37 180)
 		(fields_autoplaced yes)
@@ -5820,7 +5832,7 @@
 		)
 		(uuid "33977149-ab46-4b4f-898d-6e01bb36871d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7677 293.37 0)
+			(at 68.6791 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,6 +5841,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_B_WATCHDOG"
+		(shape input)
+		(at 335.28 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d6abee-3b2d-461d-9cc8-fd00bf9044c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.5009 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6000,6 +6036,30 @@
 			)
 		)
 	)
+	(global_label "MCU_VDD"
+		(shape input)
+		(at 353.06 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "452c6a16-1345-40c2-a2dd-49bba1e794c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.6933 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_FS_D-"
 		(shape input)
 		(at 281.94 317.5 180)
@@ -6085,6 +6145,30 @@
 		(uuid "50d52a6f-fd74-49e5-857e-b470df318bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 266.0129 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 86.36 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5161dfff-cc2e-4378-81a4-695e343dce06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.6058 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +6300,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VFBSMPS"
+	(global_label "MCUB_VFBSMPS"
 		(shape input)
 		(at 281.94 289.56 180)
 		(fields_autoplaced yes)
@@ -6228,7 +6312,7 @@
 		)
 		(uuid "5cfde2db-b20d-430d-9275-72739fc7a8de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.3477 289.56 0)
+			(at 264.0777 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,6 +6756,30 @@
 			)
 		)
 	)
+	(global_label "MCU_VDD"
+		(shape input)
+		(at 281.94 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "750f8138-43d5-4447-895e-d939a97a9ed0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.3067 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FMC_NWAIT"
 		(shape input)
 		(at 86.36 179.07 180)
@@ -6984,30 +7092,6 @@
 			)
 		)
 	)
-	(global_label "MCU_VDDSMPS"
-		(shape input)
-		(at 281.94 287.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "847eb3b1-6c4e-4712-8bbf-a8e9031bdb0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.1663 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MCU_VSS"
 		(shape input)
 		(at 264.16 170.18 180)
@@ -7069,6 +7153,30 @@
 		(uuid "8550b4c5-6eea-473f-a2b5-8538349a2f7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.1858 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 281.94 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86854157-11a2-4253-9b32-1822481d5838")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.1858 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7296,30 +7404,6 @@
 			)
 		)
 	)
-	(global_label "MCU_VDDSMPS"
-		(shape input)
-		(at 86.36 290.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d063b56-62ad-412a-9b78-f6895c8a0709")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5863 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MCU_VSS"
 		(shape input)
 		(at 142.24 168.91 0)
@@ -7536,6 +7620,30 @@
 			)
 		)
 	)
+	(global_label "MCU_A_WATCHDOG"
+		(shape input)
+		(at 142.24 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dca3606-a169-4320-beac-ce22869fc09c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.2795 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MCU_VDD"
 		(shape input)
 		(at 142.24 171.45 0)
@@ -7704,7 +7812,7 @@
 			)
 		)
 	)
-	(global_label "MCU_VLXSMPS"
+	(global_label "MCUA_VLXSMPS"
 		(shape input)
 		(at 86.36 257.81 180)
 		(fields_autoplaced yes)
@@ -7716,7 +7824,7 @@
 		)
 		(uuid "a57407e4-fe50-40cd-a368-fc73f8e8d827")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8887 257.81 0)
+			(at 68.8001 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7845,6 +7953,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_VDD"
+		(shape input)
+		(at 86.36 290.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1b962de-ac7e-44a0-88e0-1180cd36d5df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.7267 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8109,6 +8241,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_VDD"
+		(shape input)
+		(at 160.02 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c727147b-01e8-42b1-9ffb-23ad1e14bcdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.6533 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8378,7 +8534,7 @@
 	)
 	(global_label "USB_FS_ID"
 		(shape input)
-		(at 281.94 276.86 180)
+		(at 273.05 276.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8388,7 +8544,7 @@
 		)
 		(uuid "de69e01b-36d2-4942-b99a-1e36a9e4cbb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.0367 276.86 0)
+			(at 260.1467 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

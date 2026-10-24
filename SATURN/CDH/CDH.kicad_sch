@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 135.255 165.1)
+		(at 95.25 73.025)
 		(size 36.195 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "dc03155b-7cbf-4ee4-9f4c-dba3ed8dc3dd")
 		(property "Sheetname" "STM_Hardware"
-			(at 135.255 164.3884 0)
+			(at 95.25 72.3134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "STM_Hardware.kicad_sch"
-			(at 135.255 192.9896 0)
+			(at 95.25 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
