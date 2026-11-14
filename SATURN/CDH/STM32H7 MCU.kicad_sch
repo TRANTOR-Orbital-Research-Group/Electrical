@@ -4116,7 +4116,7 @@
 	)
 	(text "These should probaly be internally \npowered if possible. Seems like \nit'll be harder if we external power them"
 		(exclude_from_sim no)
-		(at 194.564 131.572 0)
+		(at 211.836 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4610,6 +4610,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 300.99) (xy 88.9 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5557d09b-658a-4beb-b05d-5c12f3ba0f6c")
+	)
+	(wire
+		(pts
 			(xy 86.36 130.81) (xy 88.9 130.81)
 		)
 		(stroke
@@ -4710,6 +4720,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 285.75) (xy 88.9 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783eb5ce-f5f9-4988-a1eb-4512a7034283")
+	)
+	(wire
+		(pts
 			(xy 86.36 288.29) (xy 88.9 288.29)
 		)
 		(stroke
@@ -4717,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "78de81bc-bb8d-4250-868f-557a9ccca033")
+	)
+	(wire
+		(pts
+			(xy 86.36 298.45) (xy 88.9 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6b99a4-a6be-4c6c-b187-abccf3097cdf")
 	)
 	(wire
 		(pts
@@ -4847,6 +4877,16 @@
 			(type default)
 		)
 		(uuid "9e3ae82c-dd1a-4605-8940-6915887c01cf")
+	)
+	(wire
+		(pts
+			(xy 86.36 217.17) (xy 88.9 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5fba6e-c72d-42f4-817e-5308fc2772ca")
 	)
 	(wire
 		(pts
@@ -5169,6 +5209,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UART7_RX"
+		(shape input)
+		(at 281.94 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a7a3141-5a9e-4aba-bf27-5a0e89b0a56c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.6415 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7212,6 +7276,30 @@
 			)
 		)
 	)
+	(global_label "UART7_TX"
+		(shape input)
+		(at 281.94 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "876e7991-0173-433a-9ab2-8eb27faf0a38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.9439 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RCC_OSC32_OUT"
 		(shape input)
 		(at 281.94 154.94 180)
@@ -7489,6 +7577,30 @@
 		(uuid "9549b4e9-bd1b-4466-a65e-d80694ce6583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.6377 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART7_RX"
+		(shape input)
+		(at 86.36 285.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95b93d37-986f-4b32-bf2f-1f3b676d1689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.0615 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8148,6 +8260,30 @@
 			)
 		)
 	)
+	(global_label "UART7_TX"
+		(shape input)
+		(at 86.36 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd9d1a93-19f0-4efb-8d29-a7484643cd1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.3639 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OCTOSPIM_P1_IO3"
 		(shape input)
 		(at 86.36 331.47 180)
@@ -8233,6 +8369,30 @@
 		(uuid "c66d3c7b-65d3-4a82-8d19-c5a9095a2fc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.3067 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ThermoOCwarn"
+		(shape input)
+		(at 281.94 294.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6e8aa60-8f97-4b15-8394-1215dcd5f7ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.1059 294.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,6 +8716,30 @@
 			)
 		)
 	)
+	(global_label "ThermoSCwarn"
+		(shape input)
+		(at 86.36 300.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e19f42e7-085f-4f0b-9cc9-e227bf3be0a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.6469 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FMC_D4"
 		(shape input)
 		(at 335.28 121.92 0)
@@ -8676,6 +8860,30 @@
 			)
 		)
 	)
+	(global_label "ThermoOCwarn"
+		(shape input)
+		(at 86.36 298.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eafdfe95-fa7f-451e-b825-ed9010fa729e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.5259 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MCU_VSS"
 		(shape input)
 		(at 142.24 288.29 0)
@@ -8745,6 +8953,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ThermoSCwarn"
+		(shape input)
+		(at 281.94 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0891ffe-8df9-4923-9ade-9e9452a19031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.2269 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

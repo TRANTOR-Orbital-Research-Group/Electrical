@@ -2061,8 +2061,8 @@
 		(uuid "59eca2e9-be0a-486c-9ae5-dbd9cfb02641")
 	)
 	(rectangle
-		(start 99.695 22.86)
-		(end 175.26 61.595)
+		(start 99.695 29.845)
+		(end 173.99 61.595)
 		(stroke
 			(width 0)
 			(type default)
@@ -2074,7 +2074,7 @@
 	)
 	(text "no decoupling caps? seems odd"
 		(exclude_from_sim no)
-		(at 118.872 36.068 0)
+		(at 115.57 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2094,7 +2094,7 @@
 	)
 	(text "MRAM"
 		(exclude_from_sim no)
-		(at 103.886 25.146 0)
+		(at 103.124 32.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,7 +3064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S3A1604V0M-AI1AT"
+		(property "Value" "S3A1604R0M-JI1AT"
 			(at 146.812 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/netsol/S3A1604R0M-JI1AT/22032038"
 			(at 135.89 45.72 0)
 			(hide yes)
 			(show_name no)
